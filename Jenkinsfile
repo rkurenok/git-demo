@@ -18,4 +18,9 @@ node {
 
     node helloworld.js
 
+    stage('Test') {
+        echo 'Test'
+        bat 'node helloworld.js'
+    }
+
 }

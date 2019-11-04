@@ -15,6 +15,8 @@ node {
         echo '-----TEST-----'
         bat 'npm test'
     }*/
-
-    node 'helloworld.js'
+    stage('Test') {
+        echo '-----TEST-----'
+        bat 'node helloworld.js'
+    }
 }

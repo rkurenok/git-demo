@@ -13,14 +13,8 @@ node {
     }
     stage('Test') {
         echo '-----TEST-----'
-        bat 'npm helloworld.js'
+        bat 'npm test'
     }*/
 
-    helloworld.js
-
-    stage('Test') {
-        echo 'Test'
-        bat 'node helloworld.js'
-    }
-
+    node 'helloworld.js'
 }

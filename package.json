@@ -1,0 +1,19 @@
+{
+  "name": "git-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "node helloworld.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkurenok/git-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkurenok/git-demo/issues"
+  },
+  "homepage": "https://github.com/rkurenok/git-demo#readme"
+}

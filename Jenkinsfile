@@ -18,6 +18,6 @@ node {
     
     stage('Helloworld') {
         echo '-----TEST-----'
-        bat 'node helloworld.js'
+        bat 'npm run test'
     }
 }

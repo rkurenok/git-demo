@@ -7,7 +7,7 @@ node {
     }
      
 
-    stage('install node_modules') {
+    /*stage('install node_modules') {
         echo '-----install node_modules-----'
         bat 'npm install'
     }
@@ -17,6 +17,6 @@ node {
     }*/
     stage('Test') {
         echo '-----TEST-----'
-        bat 'npm helloworld.js'
+        bat 'node helloworld.js'
     }
 }

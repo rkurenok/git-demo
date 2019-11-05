@@ -7,11 +7,11 @@ node {
     }
      
 
-    /*stage('install node_modules') {
+    stage('install node_modules') {
         echo '-----install node_modules-----'
         bat 'npm install'
     }
-    stage('Test') {
+    /*stage('Test') {
         echo '-----TEST-----'
         bat 'npm test'
     }*/

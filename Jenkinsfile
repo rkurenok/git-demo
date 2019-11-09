@@ -20,4 +20,8 @@ node {
         echo '-----TEST-----'
         bat 'npm run test'
     }
+    stage('ForJS') {
+        echo '-----Test-----'
+        bat 'npm run test1'
+    }
 }
